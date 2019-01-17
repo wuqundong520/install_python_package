@@ -20,6 +20,10 @@ LD_LIBRARY_PATH=/home/leo/.pyenv/versions/anaconda3-5.2.0/lib/ pyinstaller main.
 ```
 
 
+### 参考需要解决的问题
++ ImportError: No module named 'setuptools._vendor' .... .... .... AttributeError: 'str' object has no attribute 'items'
+> pip install --upgrade setuptools
+> pip install --upgrade urllib3
 
 
 
